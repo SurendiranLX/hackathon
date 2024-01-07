@@ -2707,9 +2707,18 @@ form .inputs-description {
 
 .main__intro {
   position: relative;
+  height: 50vh;
+  min-height: 460px;
+}
+
+@media only screen and (min-width: 768px) {
+.main__intro {
+  position: relative;
   height: 70vh;
   min-height: 460px;
 }
+}
+
 .main__intro.intro-large-title {
   min-height: 580px;
 }
